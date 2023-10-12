@@ -2,7 +2,7 @@ body{
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   overflow: auto;
+   overflow: hidden;
    height: 100vh;
    display: flex;
 }
@@ -18,4 +18,25 @@ body{
    background-color: red;
    height: 100%;
    width: 40%;
+}
+
+.container{
+   height: fit-content;
+   background-color: black;
+   position: absolute;
+   top: 5%;
+   left: 35%;
+   color: white;
+   font-size: 14px;
+}
+
+.special-text{
+   color: red;
+   text-decoration: underline;
+}
+
+.copyright{
+   margin-top: 150px;
+   color: darkgray;
+   font-size: 12px;
 }
