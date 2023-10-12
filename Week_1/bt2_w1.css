@@ -1,0 +1,18 @@
+body{
+    padding: 0 28%;
+}
+
+h1, h2{
+    font-weight: 700;
+    width: 700px;
+}
+
+p{
+    color: gray;
+    font-weight: 500;
+    width: 700px;
+}
+
+.tho{
+    padding-left: 20px;
+}

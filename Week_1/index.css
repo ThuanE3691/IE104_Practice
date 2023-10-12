@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    text-align: center;
+    
+}
+
+.content{
+    background-color: #fbfecd;
+    margin: 10px;
+    padding: 10px;
+}
+
+.title{
+    background-color: #FECCFF;
+    padding: 20px;
+    font-size: 45px;
+    color: deeppink;
+    margin: 10px;
+}
+
+p {
+    font-style: italic;
+}
+
+.p-1{
+    color: blue
+}
+
+.p-2{
+    color: purple;
+}
+
+.p-3{
+    color: green;
+}

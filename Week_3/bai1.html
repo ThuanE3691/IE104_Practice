@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="bai1.css" />
+	</head>
+	<body>
+		<div class="form_container">
+			<h1 class="form_title">Để lại nhu cầu khám</h1>
+			<h3 class="form_subtitle">
+				Đặt hẹn ngay để nhận tư vấn và xếp lịch khám tạm thời
+			</h3>
+			<form class="form_submit">
+				<input placeholder="Họ và tên" class="form_input name" />
+				<br />
+				<input
+					type="text"
+					class="form_input date"
+					onclick="(this.type = 'date')"
+					placeholder="Ngày Sinh YYYY/MM/DD"
+				/>
+				<br />
+				<input placeholder="Điện thoại" class="form_input phone" />
+				<br />
+				<select class="form_input select">
+					<option value="select" disabled hidden selected
+						>Chọn địa điểm gần bạn nhất</option
+					>
+					<option value="select">ABC</option>
+				</select>
+				<button class="form_button">GỬI YÊU CẦU</button>
+			</form>
+		</div>
+	</body>
+</html>

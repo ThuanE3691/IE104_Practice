@@ -1,0 +1,18 @@
+.container{
+   display: flex;
+   align-items: center;
+   gap: 32px;
+   margin: 0px 100px;
+}
+
+.items ~ p{
+   border: red 2px solid;
+   padding: 10px 10px;
+}
+
+button{
+   margin-left: auto;
+   background-color: white;
+   border: 1px black solid;
+   padding: 10px 10px;
+}
