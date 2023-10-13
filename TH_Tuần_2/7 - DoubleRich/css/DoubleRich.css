@@ -21,7 +21,7 @@ body{
 }
 
 .phunu{
-   background-image: url(../images/DoubleRich/kim-tea-hee.png);
+   background-image: url(../images/kim-tea-hee.png);
    background-repeat: no-repeat;
    background-position: bottom left;
    background-size: contain;
@@ -31,7 +31,7 @@ body{
 }
 
 .hoatay{
-   background-image: url(../images/DoubleRich/rose.png);
+   background-image: url(../images/rose.png);
    background-repeat: no-repeat;
    background-position: bottom left;
    background-size: contain;
@@ -43,7 +43,7 @@ body{
 }
 
 .hoahong{
-   background-image: url(../images/DoubleRich//nen-hoa-hong.png);
+   background-image: url(../images/nen-hoa-hong.png);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: 100% 100%;
@@ -75,7 +75,7 @@ body{
 }
 
 .header-image{
-   background-image: url("../images/DoubleRich/qua-tang-doublerich.png");
+   background-image: url("../images/qua-tang-doublerich.png");
    background-size: 250px 150px;
    background-position: center;
    width: 250px;
