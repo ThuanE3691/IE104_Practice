@@ -1,0 +1,66 @@
+body{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0 10px;
+}
+
+.bgvn{
+   background-image: url(../images/VietNam/co-vietnam.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+/* VIETNAM PHAN 1 */
+
+.title-p1{
+   color: red;
+   text-align: center;
+}
+
+.bdvn{
+   float: left;
+   padding: 0 70px;
+}
+
+.vnitw{
+   float: right;
+   width: 28%;
+   height: 260px;
+   object-fit: contain;
+}
+
+.tohead{
+   margin-left: 91%;
+}
+
+/* VIETNAM PHAN 2 */
+
+.title-p2{
+   background: red;
+   color: white;
+   padding: 10px 20px;
+}
+
+.hoguom{
+   float: left;
+   width: 400px;
+   height: 270px;
+   padding-right: 20px;
+}
+
+.first-paragraph-in-p2::first-letter{
+   font-size: 40px;
+   initial-letter: 3;
+   color: yellow;
+   margin-right: 20px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   text-shadow: 3px 3px 5px red;
+}
+
+.langbac{
+   float: right;
+   width: 30%;
+}
