@@ -1,0 +1,21 @@
+.container {
+	text-align: center;
+	padding: 100px;
+	color: white;
+	font-weight: normal;
+	background: url("../images/images05/coffee.jpg") no-repeat;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+button {
+	background-color: #e4523d;
+	padding: 15px 10px;
+	color: white;
+	text-transform: uppercase;
+	border: 0px;
+}

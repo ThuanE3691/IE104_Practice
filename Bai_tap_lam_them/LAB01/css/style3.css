@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 700px;
+	margin: 0 auto;
+}
+
+p,
+ul,
+li {
+	list-style: none;
+	color: gray;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+button {
+	padding: 15px 30px;
+	background-color: #02b9cd;
+	color: white;
+	border: 0px;
+	font-weight: bold;
+}
