@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	gap: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: blue;
+	margin-bottom: 30px;
+}
+
+img {
+	object-fit: contain;
+	align-self: start;
+}
+
+p {
+	line-height: 30px;
+}
+
+article {
+	padding-right: 250px;
+}
+
+button {
+	background-color: white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
