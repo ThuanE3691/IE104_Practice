@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	color: blue;
+}
+
+table,
+tr,
+td {
+	border: 2px solid blue;
+	border-collapse: collapse;
+	padding: 15px 5px;
+	background-color: #cdfffe;
+	color: #3c40ae;
+}
+
+tr td:first-of-type {
+	width: 250px;
+}
+
+tr td:last-of-type {
+	width: 400px;
+}
+
+tr:first-of-type td:last-of-type input {
+	width: 250px;
+}
+
+textarea {
+	width: 90%;
+	height: 100px;
+}
+
+td[colspan="2"] {
+	text-align: center;
+}
+
+td[colspan="2"]:last-of-type {
+	color: red;
+	font-weight: bold;
+}

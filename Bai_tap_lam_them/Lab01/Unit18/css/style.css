@@ -1,0 +1,38 @@
+.container {
+    width: 43.4%;
+
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 0px;
+
+    font-family: sans-serif;
+
+    background-color: #F2F3F5;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+
+    border-bottom: 1px dashed red;
+}
+
+.flex-container:last-child {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.flex-item:first-child {
+    margin-right: 30px;
+}
+
+.flex-item:last-child {
+    padding-top: 5px;
+}
+
+.flex-item p {
+    color: #908c8c;
+    line-height: 25px;
+}

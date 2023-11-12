@@ -1,0 +1,55 @@
+p { 
+    margin: 0;
+}
+.container {
+    background-color: #000;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 13% 13% 30%;
+    gap: 30px;
+    color: #777;
+    
+    margin: 20px;
+    padding-top: 35px;
+    line-height: 25px;
+}
+.uitimg {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    
+}
+
+span {
+    font-weight: bold;
+    
+}
+.uit p {
+    margin: 5px 0;
+    border-top: none;
+}
+.col-header {
+    font-weight: bold;
+    color: white;
+    
+}
+ p {
+    padding: 15px 0px ;
+    border-top: 1px dashed rgb(56, 55, 55);
+}
+#fst {
+    border-top: none ;
+}
+
+.sm-icon {
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px dashed rgb(56, 55, 55);
+}
+.icon {
+    margin-right: 10px;
+    border-right: 1px dashed rgb(56, 55, 55);
+    padding-right: 10px;
+}
+

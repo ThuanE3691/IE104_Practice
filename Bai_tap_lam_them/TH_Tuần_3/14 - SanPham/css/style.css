@@ -1,0 +1,43 @@
+.container {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 100px;
+}
+
+h1,
+p.description {
+	text-align: center;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	margin-top: 100px;
+}
+
+.information {
+	list-style: none;
+	text-align: start;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.sub-title,
+.information {
+	color: rgba(0, 0, 0, 0.708);
+	font-size: 14px;
+}
+
+.ctn_read {
+	padding: 10px 30px;
+	color: rgba(0, 0, 0, 0.708);
+	border: 1px black solid;
+	width: fit-content;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.ctn_read:hover {
+	opacity: 0.7;
+}

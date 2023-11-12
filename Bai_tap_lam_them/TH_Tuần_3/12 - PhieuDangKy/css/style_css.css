@@ -1,0 +1,77 @@
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px 5px blue, -2px -2px 5px blue;
+}
+
+table {
+	border-radius: 16px;
+	box-shadow: blue 10px 10px 16px 0px;
+	background-image: url("../images/khuyen-mai.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: #cdfffe;
+	background-size: 100% 400px;
+}
+
+table,
+tr,
+td {
+	padding: 10px 5px;
+	color: blue;
+	font-weight: bold;
+}
+
+input,
+textarea,
+select {
+	border-radius: 16px;
+	background-color: rgba(0, 0, 255, 0.308);
+	border: 2px dotted blue;
+	padding: 5px 5px;
+}
+select:last-of-type {
+	width: 200px;
+}
+
+tr td:first-of-type {
+	width: 250px;
+	text-align: end;
+}
+
+tr td:last-of-type {
+	width: 400px;
+}
+
+tr:first-of-type td:last-of-type input {
+	width: 250px;
+}
+
+textarea {
+	width: 90%;
+	height: 75px;
+}
+
+td[colspan="2"] {
+	text-align: center !important;
+}
+
+button {
+	border-radius: 8px;
+	padding: 3px 25px;
+	color: white;
+	background-image: linear-gradient(to bottom, blue, aqua);
+	font-weight: bold;
+}
+
+td[colspan="2"]:last-of-type {
+	color: #f56dfb;
+	font-style: italic;
+	font-weight: bold;
+}
